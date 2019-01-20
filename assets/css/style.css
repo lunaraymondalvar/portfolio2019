@@ -151,17 +151,19 @@ html {
 }
 
 #backabout {
-	margin-top: 400px;
+	margin-top: 350px;
 	width: 550px;
 }
 
-/*#port {
-	width: 350px;
-	height: 350px;
-}*/
+#port {
+	margin-top: 20px;
+	/*width: 350px;
+	height: 350px;*/
+}
 
 #capsimage {
-	height: 450px;
+	height: 350px;
+	margin-top: 20px;
 }
 
 #aboutme {
