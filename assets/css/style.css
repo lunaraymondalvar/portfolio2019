@@ -123,10 +123,35 @@ html {
 	background-color: green;	
 }
 
+#skillicon {
+	height: 210px;
+	width: 210px;
+	position: left;	
+	margin-left: 110px;
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+
+/*About Page*/
+
+#info {
+	text-align: justify;
+	margin-top: 200px;
+
+
+}
+
+
 /*Projects Page*/
 
 #back {
 	margin-top: 80px;
+	width: 550px;
+	margin-bottom: 40px;
+}
+
+#backabout {
+	margin-top: 400px;
 	width: 550px;
 }
 
@@ -141,7 +166,7 @@ html {
 
 #aboutme {
 	height: 180px;
-	width: 2200px;
+	width: 100%;
 	margin-top: -530px;
 }
 
