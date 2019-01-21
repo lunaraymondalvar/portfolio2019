@@ -14,18 +14,25 @@ html {
 #port-jumbo{
 	border: 3px solid orange; /*#007bff*/
 	border-radius: 40px;
-	height: 600px;
+	height: 480px;
 	width: 900px;
+	/*height: 600px;
+	width: 900px;*/
 	padding: 8em 4em;
 	/*opacity: 0.9;*/
-	margin-top: 180px;
+	margin-top: 100px;
+	/*margin-top: 180px;*/
 }
 
 #landingprofpic {
-	height: 350px;
-	width: 	350px;
+	height: 250px;
+	width: 	250px;
 	margin-top: -120px;
 	border-radius: 50px;
+	/*height: 350px;
+	width: 	350px;
+	margin-top: -120px;
+	border-radius: 50px;*/
 }
 
 #jumbo-landing, #jumbo-welcome, #welcomepage, #jumbo-projects, #jumbo-about, #about, #social, #jumbo-social {
@@ -40,6 +47,7 @@ html {
   background: gray url(../images/crissxcross.png) repeat 0 0;
   /*background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;*/
   width: 100%;
+ /* width: 100%;*/
   margin: 0;
   text-align: center;
   height: 300px;
@@ -84,14 +92,26 @@ html {
 }
 
 #btnabout, #btnprojects, #btnsocial {
-	width: 	250px;
-	height: 250px;
+	width: 	200px;
+	height: 200px;
+	/*width: 	250px;
+	height: 250px;*/
 	border-radius: 20px;
 	opacity: 0.7;
 	border: 3px solid orange;
 	letter-spacing: 10px;
 	transition: all 0.5s;
  	cursor: pointer;
+
+}
+
+#btnabout {
+	margin-top: -40px;
+}
+
+#socialback {
+	margin-bottom: 40px;
+	width: 550px;
 }
 
 .btn span {
@@ -124,12 +144,19 @@ html {
 }
 
 #skillicon {
-	height: 210px;
+	height: 150px;
+	width: 150px;
+	position: left;	
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+/*	margin-right: 10px;*/
+	/*height: 210px;
 	width: 210px;
 	position: left;	
 	margin-left: 110px;
 	margin-bottom: 50px;
-	margin-right: 10px;
+	margin-right: 10px;*/
 }
 
 /*About Page*/
@@ -137,8 +164,13 @@ html {
 #info {
 	text-align: justify;
 	margin-top: 200px;
+}
 
-
+#backabout {
+	margin-top: 180px;
+	width: 550px;
+	/*margin-top: 350px;
+	width: 550px;*/
 }
 
 
@@ -150,34 +182,49 @@ html {
 	margin-bottom: 40px;
 }
 
-#backabout {
-	margin-top: 350px;
-	width: 550px;
-}
-
 #port {
 	margin-top: 20px;
-	/*width: 350px;
-	height: 350px;*/
+	/*width: 350px;*/
+	height: 380px;
 }
 
 #capsimage {
-	height: 350px;
+	height: 200px;
 	margin-top: 20px;
+	/*height: 350px;
+	margin-top: 20px;*/
+}
+
+.card-body {
+	height: 90px;
 }
 
 #aboutme {
-	height: 180px;
+	height: 120px;
 	width: 100%;
-	margin-top: -530px;
+	/*height: 180px;
+	width: 100%;*/
+	margin-top: -470px;
 }
 
 
 /*Social Page*/
 
-#socialicons {
+/*#socialicons {
 	height: 140px;
 	width: 280px;
 	margin-bottom: 20px;
 	margin-top: 40px;
+}*/
+
+#socialicons {
+	height: 100px;
+	width: 240px;
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+
+#pageheader {
+	margin-top: -30px;
+
 }
